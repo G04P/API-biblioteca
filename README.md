@@ -18,3 +18,15 @@ Asegúrate de tener instalados los siguientes elementos en tu máquina:
    ```bash
    git clone https://github.com/G04P/API-biblioteca.git
    cd ApiBiblioteca
+Si todo está configurado correctamente, la API debería levantarse en http://localhost:5000.
+
+### Autenticación
+Las rutas de la API están protegidas por autenticación básica. Para acceder a los endpoints, deberás:
+
+1. **Crear un usuario en la base de datos:**
+
+Debes agregar un usuario a la tabla usuarios en la base de datos para obtener acceso a los endpoints.
+
+2. **Utilizar autenticación básica:**
+
+Asegúrate de proporcionar las credenciales correctas en las solicitudes para autenticarte y obtener acceso. 
